@@ -1,0 +1,186 @@
+*
+    {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+body
+    {
+      margin: 0;
+    }
+#map 
+    {
+        height: 80vh;
+        width: 100%;
+        border-radius: 1rem 1rem 0rem 0rem;
+     }
+.leaflet-right {
+      display: none;
+  }
+  
+.leaflet-left {
+      display: none;
+  }
+.baniere
+     {
+      height: 12rem;
+      display: flex;
+      justify-content: space-between;
+      background-color:rgb(255, 253, 209);
+      position: absolute;
+      bottom: 6.1rem;
+      right: 0;
+      z-index: 999;
+      padding: 0.2rem;
+     }
+.favoris2
+     {
+          height: 2rem;
+     }
+.picture
+     {
+          display: flex;
+     }
+.picture img
+     {
+          width: 14rem;
+          height: 10rem;
+          margin: 1rem 3rem 2rem 2rem;
+      }
+     
+.description p
+     {
+          font-weight: 600;
+          font-size: 0.8rem;
+          word-break: break-all;
+     }
+.save
+     {
+          display: flex;
+     }
+.enregistrer
+     {
+          width: 9rem;
+          height: 3rem;
+          border-radius: 0.4rem;
+          background-color: rgb(251, 57, 57);
+          box-shadow:  0.2rem 0.1rem 0.2rem;
+     }
+.close
+     {
+          width: 3rem;
+          height: 3rem;
+          border-radius: 0.4rem;
+          background-color: rgb(251, 57, 57);
+          box-shadow:  0.2rem 0.1rem 0.2rem; 
+          margin-left: 1rem;
+     }
+.menu
+     {
+        display: flex;
+        width: 100%;
+        height: 6.5rem;
+        position: fixed;
+        overflow: hidden;
+        bottom: 0;
+     }
+.menu img
+     {
+        width: 10vw;
+     }
+.menu p
+     {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 2rem;
+        font-weight: lighter;
+     }
+ .menu :hover
+     {
+        cursor: pointer;
+        background-color: rgb(255, 255, 255);
+     }
+.carte
+     {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: solid 0.1rem rgb(255, 255, 255);
+        border-radius: 0rem 0rem 0rem 2rem;
+        width: 40rem;
+        background-color: rgb(58, 99, 214);
+     }
+.favoris
+     {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: solid 0.1rem rgb(255, 255, 255);
+        border-radius: 0rem 0rem 2rem 0rem;
+        width: 40rem;
+        background-color: rgb(251, 57, 57);
+     }
+@media only screen and (max-width: 768px)
+     {
+    .menu p
+        {
+            display: none;
+        }
+     .menu img
+        {
+            width: 20vw;
+        }
+     .baniere
+          {
+               display: flex;
+               flex-direction: column-reverse ;
+               justify-content: center;
+               align-items: center;
+               height: 30rem;
+          }
+     .description p
+          {
+               font-weight: 400;
+               font-size: 0.6rem;
+          }
+     .save
+          {
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               flex-direction: column;
+          }
+     .picture
+          {
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               flex-direction: column;
+          }
+     .picture img
+          {
+               width: 5rem;
+               height: 5rem;
+               margin: 0rem;
+          }
+     .close
+          {
+               margin: 1rem;
+               height: 1.5rem;
+          }
+     .enregistrer
+          {
+               height: 1.5rem;
+          }
+     .description
+          {
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               flex-direction: column;
+               width: 70%;
+               word-break: break-all;
+          }
+     .description p 
+          {
+               margin: 0rem;
+          }
+     }
+     
